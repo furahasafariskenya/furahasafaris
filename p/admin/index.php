@@ -8,32 +8,32 @@ define('IMAGES_DIR', '../images/');
 $PAGES = [
   // Homepage
   'Homepage' => [
-    'homepage' => ['label' => 'Homepage', 'file' => '../index.php', 'icon' => '🏠'],
+    'homepage' => ['label' => 'Homepage', 'file' => '../index.php', 'icon' => 'i-home'],
   ],
   // Safari Packages
   'Safari Packages' => [
-    'safari-1gg-tsavo'    => ['label' => '1 Day — Tsavo East',                    'file' => '../safari/1-gg-tsavo-est.php',                  'icon' => '🐘'],
-    'safari-2gg-tsavo'    => ['label' => '2 Days — Tsavo East',                   'file' => '../safari/2-gg-tsavo-est.php',                  'icon' => '🐘'],
-    'safari-2gg-mara'     => ['label' => '2 Days — Maasai Mara',                  'file' => '../safari/2-gg-maasai-mara.php',                'icon' => '🦁'],
-    'safari-3gg-amboseli' => ['label' => '3 Days — Amboseli & Tsavo East',        'file' => '../safari/3-gg-amboseli-e-tsavo-est.php',       'icon' => '🐘'],
-    'safari-3gg-mara'     => ['label' => '3 Days — Maasai Mara',                  'file' => '../safari/3-gg-maasai-mara.php',                'icon' => '🦁'],
-    'safari-4gg-mara'     => ['label' => '4 Days — Maasai Mara & Lake Nakuru',    'file' => '../safari/4-gg-maasai-mara-e-lago-nakuru.php',  'icon' => '🦏'],
-    'safari-5gg-taita'    => ['label' => '5 Days — Amboseli, Taita Hills & Tsavo','file' => '../safari/5-gg-amboseli-taita-tsavo.php',       'icon' => '🌍'],
-    'safari-5gg-mara'     => ['label' => '5 Days — Mara, Amboseli & Tsavo East',  'file' => '../safari/5-gg-mara-amboseli-tsavo-est.php',    'icon' => '🌍'],
-    'safari-6gg'          => ['label' => '6 Days — Grand Tour Kenya',              'file' => '../safari/6-gg-mara-nakuru-amboseli-tsavo.php', 'icon' => '⭐'],
-    'safari-7gg'          => ['label' => '7 Days — Grand Tour Kenya (Full)',       'file' => '../safari/7-gg-grand-tour-kenya.php',           'icon' => '⭐'],
+    'safari-1gg-tsavo'    => ['label' => '1 Day — Tsavo East',                    'file' => '../safari/1-gg-tsavo-est.php',                  'icon' => 'i-paw'],
+    'safari-2gg-tsavo'    => ['label' => '2 Days — Tsavo East',                   'file' => '../safari/2-gg-tsavo-est.php',                  'icon' => 'i-paw'],
+    'safari-2gg-mara'     => ['label' => '2 Days — Maasai Mara',                  'file' => '../safari/2-gg-maasai-mara.php',                'icon' => 'i-paw'],
+    'safari-3gg-amboseli' => ['label' => '3 Days — Amboseli & Tsavo East',        'file' => '../safari/3-gg-amboseli-e-tsavo-est.php',       'icon' => 'i-paw'],
+    'safari-3gg-mara'     => ['label' => '3 Days — Maasai Mara',                  'file' => '../safari/3-gg-maasai-mara.php',                'icon' => 'i-paw'],
+    'safari-4gg-mara'     => ['label' => '4 Days — Maasai Mara & Lake Nakuru',    'file' => '../safari/4-gg-maasai-mara-e-lago-nakuru.php',  'icon' => 'i-paw'],
+    'safari-5gg-taita'    => ['label' => '5 Days — Amboseli, Taita Hills & Tsavo','file' => '../safari/5-gg-amboseli-taita-tsavo.php',       'icon' => 'i-globe'],
+    'safari-5gg-mara'     => ['label' => '5 Days — Mara, Amboseli & Tsavo East',  'file' => '../safari/5-gg-mara-amboseli-tsavo-est.php',    'icon' => 'i-globe'],
+    'safari-6gg'          => ['label' => '6 Days — Grand Tour Kenya',              'file' => '../safari/6-gg-mara-nakuru-amboseli-tsavo.php', 'icon' => 'i-star'],
+    'safari-7gg'          => ['label' => '7 Days — Grand Tour Kenya (Full)',       'file' => '../safari/7-gg-grand-tour-kenya.php',           'icon' => 'i-star'],
   ],
   // Excursions
   'Excursions' => [
-    'esci-safari-blu'    => ['label' => 'Blue Safari',              'file' => '../escursioni/safari-blu.php',      'icon' => '⛵'],
-    'esci-safari-blu-2'  => ['label' => 'Blue Safari (Sardinia 2)', 'file' => '../escursioni/safari-blu-2.php',    'icon' => '⛵'],
-    'esci-crab-shack'    => ['label' => 'Crab Shack — Dabaso',      'file' => '../escursioni/crab-shack.php',      'icon' => '🦞'],
-    'esci-marafa'        => ['label' => 'Marafa Canyon',            'file' => '../escursioni/canyon-marafa.php',   'icon' => '🏜'],
-    'esci-robinson'      => ['label' => 'Robinson Island',          'file' => '../escursioni/isola-robinson.php',  'icon' => '🏖'],
-    'esci-che-shale'     => ['label' => 'Che Shale — Golden Sand',  'file' => '../escursioni/che-shale.php',       'icon' => '🌊'],
-    'esci-malindi'       => ['label' => 'Malindi Tour',             'file' => '../escursioni/giro-malindi.php',    'icon' => '🕌'],
-    'esci-gedi'          => ['label' => 'Gedi Ruins',               'file' => '../escursioni/rovine-gedi.php',     'icon' => '🏛'],
-    'esci-arabuko'       => ['label' => 'Arabuko Sokoke Forest',    'file' => '../escursioni/arabuko-sokoke.php',  'icon' => '🌲'],
+    'esci-safari-blu'    => ['label' => 'Blue Safari',              'file' => '../escursioni/safari-blu.php',      'icon' => 'i-sailboat'],
+    'esci-safari-blu-2'  => ['label' => 'Blue Safari (Sardinia 2)', 'file' => '../escursioni/safari-blu-2.php',    'icon' => 'i-sailboat'],
+    'esci-crab-shack'    => ['label' => 'Crab Shack — Dabaso',      'file' => '../escursioni/crab-shack.php',      'icon' => 'i-shell'],
+    'esci-marafa'        => ['label' => 'Marafa Canyon',            'file' => '../escursioni/canyon-marafa.php',   'icon' => 'i-mountain'],
+    'esci-robinson'      => ['label' => 'Robinson Island',          'file' => '../escursioni/isola-robinson.php',  'icon' => 'i-umbrella'],
+    'esci-che-shale'     => ['label' => 'Che Shale — Golden Sand',  'file' => '../escursioni/che-shale.php',       'icon' => 'i-waves'],
+    'esci-malindi'       => ['label' => 'Malindi Tour',             'file' => '../escursioni/giro-malindi.php',    'icon' => 'i-landmark'],
+    'esci-gedi'          => ['label' => 'Gedi Ruins',               'file' => '../escursioni/rovine-gedi.php',     'icon' => 'i-landmark'],
+    'esci-arabuko'       => ['label' => 'Arabuko Sokoke Forest',    'file' => '../escursioni/arabuko-sokoke.php',  'icon' => 'i-tree'],
   ],
 ];
 
@@ -68,7 +68,7 @@ if ($in && isset($_FILES['upload']) && $_FILES['upload']['error'] === UPLOAD_ERR
     $dest = IMAGES_DIR . $filename;
     if (file_exists($dest)) $dest = IMAGES_DIR . $name . '-' . time() . '.' . $ext;
     move_uploaded_file($_FILES['upload']['tmp_name'], $dest) 
-      ? $msg = '✓ Image uploaded: <strong>' . basename($dest) . '</strong>'
+      ? $msg = '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"></use></svg> Image uploaded: <strong>' . basename($dest) . '</strong>'
       : $error = 'Upload failed. Check folder permissions on images/.';
   }
 }
@@ -96,7 +96,7 @@ if ($in && ($_POST['action'] ?? '') === 'swap') {
       } else {
         file_put_contents($fp, str_replace($old, $new, $content));
         $label = $ALL_PAGES[$pk]['label'];
-        $msg   = '✓ Replaced <strong>' . $old . '</strong> with <strong>' . $new . '</strong> on <strong>' . $label . '</strong>. (' . $count . ' spot' . ($count>1?'s':'') . ' updated)';
+        $msg   = '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"></use></svg> Replaced <strong>' . $old . '</strong> with <strong>' . $new . '</strong> on <strong>' . $label . '</strong>. (' . $count . ' spot' . ($count>1?'s':'') . ' updated)';
       }
     }
   }
@@ -158,7 +158,14 @@ body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(
 .sb-btn{display:flex;align-items:center;gap:.5rem;width:100%;background:none;border:none;padding:.45rem .6rem;border-radius:6px;color:var(--mist);font-size:.8rem;cursor:pointer;text-align:left;transition:background .15s,color .15s;text-decoration:none}
 .sb-btn:hover{background:rgba(200,137,42,.1);color:var(--bone)}
 .sb-btn.active{background:rgba(200,137,42,.18);color:var(--dust);font-weight:600}
-.sb-icon{font-size:1rem;width:20px;text-align:center;flex-shrink:0}
+.sb-icon{width:20px;flex-shrink:0;display:inline-flex;align-items:center;justify-content:center}
+/* Shared SVG icon system */
+.icon{width:1em;height:1em;flex:none;display:inline-block;vertical-align:-.125em;color:inherit;pointer-events:none}
+.card-title .icon,.brand .icon,h1 .icon{width:1.05em;height:1.05em;vertical-align:-.16em;margin-right:.15rem}
+.sb-btn .icon{width:16px;height:16px}
+.btn .icon{width:1.05em;height:1.05em}
+.alert .icon{width:15px;height:15px;vertical-align:-.18em;margin-right:.25rem}
+.placeholder .big .icon{width:34px;height:34px;color:var(--gold)}
 
 /* ===== CONTENT ===== */
 .content{overflow-y:auto;padding:1.5rem}
@@ -214,12 +221,13 @@ input[type=file]{color:var(--mist);font-size:.8rem}
 </style>
 </head>
 <body>
+<?php require __DIR__ . '/../includes/icons.php'; ?>
 
 <?php if (!$in): ?>
 <!-- ===== LOGIN ===== -->
 <div class="login-page">
   <div class="login-card">
-    <h1>🦁 Furaha Admin</h1>
+    <h1><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"></use></svg> Furaha Admin</h1>
     <p class="sub">Image Manager — Furaha Adventures Kenya</p>
     <?php if($error):?><div class="alert alert-err"><?=$error?></div><?php endif;?>
     <form method="POST">
@@ -236,9 +244,9 @@ input[type=file]{color:var(--mist);font-size:.8rem}
 <!-- ===== ADMIN SHELL ===== -->
 <div class="shell">
   <header class="topbar">
-    <div class="brand">🦁 Furaha <em>Admin</em> — Image Manager</div>
+    <div class="brand"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"></use></svg> Furaha <em>Admin</em> — Image Manager</div>
     <div style="display:flex;gap:.6rem;align-items:center">
-      <a href="../index.php" class="btn btn-outline btn-sm" target="_blank">↗ View Site</a>
+      <a href="../index.php" class="btn btn-outline btn-sm" target="_blank"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg> View Site</a>
       <a href="?logout=1" class="btn btn-red btn-sm">Log Out</a>
     </div>
   </header>
@@ -251,7 +259,7 @@ input[type=file]{color:var(--mist);font-size:.8rem}
         <span class="sb-label"><?=$group?></span>
         <?php foreach($pages as $key => $meta): ?>
         <a href="?page=<?=urlencode($key)?>" class="sb-btn <?=$selKey===$key?'active':''?>">
-          <span class="sb-icon"><?=$meta['icon']?></span>
+          <span class="sb-icon" aria-hidden="true"><svg class="icon" focusable="false"><use href="#<?=$meta['icon']?>"></use></svg></span>
           <?=$meta['label']?>
         </a>
         <?php endforeach;?>
@@ -266,7 +274,7 @@ input[type=file]{color:var(--mist);font-size:.8rem}
 
       <!-- UPLOAD -->
       <div class="card">
-        <div class="card-title">📤 Upload New Image</div>
+        <div class="card-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-upload"></use></svg> Upload New Image</div>
         <form method="POST" enctype="multipart/form-data">
           <div class="upload-zone">
             <input type="file" name="upload" accept="image/jpeg,image/png,image/webp" required>
@@ -280,7 +288,7 @@ input[type=file]{color:var(--mist);font-size:.8rem}
       <!-- NO PAGE SELECTED YET -->
       <div class="card">
         <div class="placeholder">
-          <div class="big">👈</div>
+          <div class="big"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pointer"></use></svg></div>
           <p>Pick a page from the sidebar to<br>see and swap its images.</p>
           <p style="margin-top:.75rem;font-size:.8rem">
             <strong>Homepage</strong> · <strong>Safari Packages</strong> · <strong>Excursions</strong>
@@ -296,7 +304,7 @@ input[type=file]{color:var(--mist);font-size:.8rem}
       <?php else: ?>
       <!-- PAGE SELECTED -->
       <div class="card">
-        <div class="card-title"><?=$selMeta['icon']?> <?=$selMeta['label']?></div>
+        <div class="card-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#<?=$selMeta['icon']?>"></use></svg> <?=$selMeta['label']?></div>
 
         <?php if(empty($pageImgs)): ?>
           <p style="color:var(--mist);font-size:.85rem">No images found on this page.</p>

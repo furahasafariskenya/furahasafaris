@@ -58,9 +58,9 @@ $safari = array(
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+<?php require __DIR__ . '/./../includes/icons.php'; ?>
 
 <!-- NAV (same as homepage) -->
 <nav class="site-nav" id="site-nav">
@@ -74,7 +74,7 @@ $safari = array(
       <li>
         <a href="../index.php#safari" class="nav-link">
           <span data-it="Safari" data-en="Safari">Safari</span>
-          <span class="chev">&#9660;</span>
+          <span class="chev"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
         </a>
         <div class="dropdown">
           <a href="1-gg-tsavo-est.php" data-it="1 GG Tsavo Est" data-en="1 Day Tsavo East">1 GG Tsavo Est</a>
@@ -92,7 +92,7 @@ $safari = array(
       <li>
         <a href="../index.php#escursioni" class="nav-link">
           <span data-it="Escursioni" data-en="Excursions">Escursioni</span>
-          <span class="chev">&#9660;</span>
+          <span class="chev"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
         </a>
         <div class="dropdown">
           <a href="../escursioni/safari-blu.php">Safari Blu</a>
@@ -107,7 +107,7 @@ $safari = array(
       </li>
       <li><a href="../index.php#recensioni" class="nav-link" data-it="Recensioni" data-en="Reviews">Recensioni</a></li>
       <li><label class="language-picker" aria-label="Select website language">
-          <span class="language-picker-icon" aria-hidden="true">◎</span>
+          <span class="language-picker-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-globe"></use></svg></span>
           <select class="language-select" aria-label="Select website language">
             <option value="en">English</option>
             <option value="it">Italiano</option>
@@ -117,7 +117,7 @@ $safari = array(
         </label></li>
       <li>
         <a href="https://wa.me/254714434430?text=Salve,%20vorrei%20informazioni%20sul%20safari%20<?php echo urlencode($safari['title_it']); ?>." class="nav-cta" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i> WhatsApp
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg> WhatsApp
         </a>
       </li>
     </ul>
@@ -129,15 +129,15 @@ $safari = array(
 
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobile-nav">
-  <button class="mobile-close" id="mobile-close" aria-label="Close" data-aria-en="Close" data-aria-it="Chiudi" data-aria-fr="Fermer" data-aria-de="Schließen">&times;</button>
+  <button class="mobile-close" id="mobile-close" aria-label="Close" data-aria-en="Close" data-aria-it="Chiudi" data-aria-fr="Fermer" data-aria-de="Schließen"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"></use></svg></button>
   <a href="../index.php" class="mobile-nav-title">Home</a>
   <a href="../index.php#safari" class="mobile-nav-title" data-it="Safari" data-en="Safari">Safari</a>
   <a href="../index.php#escursioni" class="mobile-nav-title" data-it="Escursioni" data-en="Excursions">Escursioni</a>
   <a href="https://wa.me/254714434430" class="btn btn-wa" target="_blank" rel="noopener" style="margin-top:0.5rem;">
-    <i class="fab fa-whatsapp"></i> WhatsApp
+    <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg> WhatsApp
   </a>
   <label class="language-picker language-picker-mobile" aria-label="Select website language">
-    <span class="language-picker-icon" aria-hidden="true">◎</span>
+    <span class="language-picker-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-globe"></use></svg></span>
     <select class="language-select" aria-label="Select website language">
       <option value="en">English</option>
       <option value="it">Italiano</option>
@@ -191,7 +191,7 @@ $safari = array(
 
       <div style="margin-top: 2.5rem;">
         <a href="https://wa.me/254714434430?text=Salve,%20sono%20interessato%20al%20safari%20<?php echo urlencode($safari['title_it']); ?>." class="btn btn-wa" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i>
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
           <span data-it="Prenota questo Safari" data-en="Book this Safari">Prenota questo Safari</span>
         </a>
       </div>
@@ -207,24 +207,24 @@ $safari = array(
           <div class="footer-col-title" style="margin-bottom:0.75rem;" data-it="Cosa include:" data-en="What's included:">Cosa include:</div>
           <?php foreach ($safari['includes'] as $inc): ?>
           <div class="booking-item">
-            <span class="chk"><i class="fas fa-check-circle"></i></span>
+            <span class="chk"><svg class="icon icon--check" aria-hidden="true" focusable="false"><use href="#i-check-circle"></use></svg></span>
             <span data-it="<?php echo $inc['it']; ?>" data-en="<?php echo $inc['en']; ?>"><?php echo $inc['it']; ?></span>
           </div>
           <?php endforeach; ?>
         </div>
 
         <a href="https://wa.me/254714434430?text=Salve,%20sono%20interessato%20al%20safari%20<?php echo urlencode($safari['title_it']); ?>." class="btn btn-wa" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i>
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
           <span data-it="Chiedi Preventivo" data-en="Request Quote">Chiedi Preventivo</span>
         </a>
 
         <div style="margin-top:1.25rem; padding-top:1.25rem; border-top: 1px solid var(--bark);">
           <div class="footer-contact-row">
-            <span class="fci"><i class="fas fa-phone"></i></span>
+            <span class="fci"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"></use></svg></span>
             <div class="fct"><a href="tel:+254714434430">+254 714 434 430</a></div>
           </div>
           <div class="footer-contact-row">
-            <span class="fci"><i class="fas fa-envelope"></i></span>
+            <span class="fci"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"></use></svg></span>
             <div class="fct"><a href="mailto:furahasafariskenya@gmail.com">furahasafariskenya@gmail.com</a></div>
           </div>
         </div>

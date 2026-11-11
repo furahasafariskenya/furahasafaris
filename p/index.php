@@ -12,9 +12,9 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+<?php require __DIR__ . '/./includes/icons.php'; ?>
 
 <!-- NAV -->
 <nav class="site-nav" id="site-nav">
@@ -30,7 +30,7 @@
       <li>
         <a href="#safari" class="nav-link">
           <span data-it="Safari" data-en="Safari">Safari</span>
-          <span class="chev">&#9660;</span>
+          <span class="chev"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
         </a>
         <div class="dropdown">
           <a href="safari/1-gg-tsavo-est.php" data-it="1 GG Tsavo Est" data-en="1 Day Tsavo East">1 GG Tsavo Est</a>
@@ -49,7 +49,7 @@
       <li>
         <a href="#escursioni" class="nav-link">
           <span data-it="Escursioni" data-en="Excursions">Escursioni</span>
-          <span class="chev">&#9660;</span>
+          <span class="chev"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
         </a>
         <div class="dropdown">
           <a href="escursioni/safari-blu.php" data-it="Safari Blu" data-en="Blue Safari">Safari Blu</a>
@@ -69,7 +69,7 @@
       <li><a href="#prenota" class="nav-link" data-it="Prenota" data-en="Book" style="color:var(--dust);">Prenota</a></li>
 
       <li><label class="language-picker" aria-label="Select website language" data-aria-en="Select website language" data-aria-it="Seleziona la lingua del sito" data-aria-fr="Choisir la langue du site" data-aria-de="Website-Sprache auswählen">
-          <span class="language-picker-icon" aria-hidden="true">◎</span>
+          <span class="language-picker-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-globe"></use></svg></span>
           <select class="language-select" aria-label="Select website language" data-aria-en="Select website language" data-aria-it="Seleziona la lingua del sito" data-aria-fr="Choisir la langue du site" data-aria-de="Website-Sprache auswählen">
             <option value="en">English</option>
             <option value="it">Italiano</option>
@@ -79,7 +79,7 @@
         </label></li>
       <li>
         <a href="https://wa.me/254714434430?text=Salve,%20sto%20gentilmente%20informando%20sui%20servizi%20Safari%20ed%20Escursioni%20che%20offri." class="nav-cta" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i>
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
           <span data-it="WhatsApp" data-en="WhatsApp">WhatsApp</span>
         </a>
       </li>
@@ -93,7 +93,7 @@
 
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobile-nav">
-  <button class="mobile-close" id="mobile-close" aria-label="Close" data-aria-en="Close" data-aria-it="Chiudi" data-aria-fr="Fermer" data-aria-de="Schließen">&times;</button>
+  <button class="mobile-close" id="mobile-close" aria-label="Close" data-aria-en="Close" data-aria-it="Chiudi" data-aria-fr="Fermer" data-aria-de="Schließen"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"></use></svg></button>
 
   <a href="index.php" class="mobile-nav-title" data-it="Home" data-en="Home">Home</a>
   <a href="#chi-sono" class="mobile-nav-title" data-it="Chi Sono" data-en="About">Chi Sono</a>
@@ -127,10 +127,10 @@
   <a href="#recensioni" class="mobile-nav-title" data-it="Recensioni" data-en="Reviews">Recensioni</a>
   <a href="#prenota" class="mobile-nav-title" data-it="Prenota" data-en="Book" style="color:var(--savanna);">Prenota</a>
   <a href="https://wa.me/254714434430" class="btn btn-wa" target="_blank" rel="noopener" style="margin-top:0.5rem;">
-    <i class="fab fa-whatsapp"></i> WhatsApp
+    <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg> WhatsApp
   </a>
   <label class="language-picker language-picker-mobile" aria-label="Select website language" data-aria-en="Select website language" data-aria-it="Seleziona la lingua del sito" data-aria-fr="Choisir la langue du site" data-aria-de="Website-Sprache auswählen">
-    <span class="language-picker-icon" aria-hidden="true">◎</span>
+    <span class="language-picker-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-globe"></use></svg></span>
     <select class="language-select" aria-label="Select website language" data-aria-en="Select website language" data-aria-it="Seleziona la lingua del sito" data-aria-fr="Choisir la langue du site" data-aria-de="Website-Sprache auswählen">
       <option value="en">English</option>
       <option value="it">Italiano</option>
@@ -200,28 +200,28 @@
 
         <div class="about-traits">
           <div class="trait">
-            <div class="trait-ico">&#127757;</div>
+            <div class="trait-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"></use></svg></div>
             <div class="trait-txt">
               <strong data-it="Locale e Autentico" data-en="Local & Authentic">Locale e Autentico</strong>
               <span data-it="Nativo di Watamu, conosco ogni angolo" data-en="Born in Watamu, I know every corner">Nativo di Watamu, conosco ogni angolo</span>
             </div>
           </div>
           <div class="trait">
-            <div class="trait-ico">&#127760;</div>
+            <div class="trait-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-tag"></use></svg></div>
             <div class="trait-txt">
               <strong data-it="Prezzi Onesti" data-en="Fair Prices">Prezzi Onesti</strong>
               <span data-it="Competitivi e trasparenti, nessuna sorpresa" data-en="Competitive and transparent, no surprises">Competitivi e trasparenti, nessuna sorpresa</span>
             </div>
           </div>
           <div class="trait">
-            <div class="trait-ico">&#129309;</div>
+            <div class="trait-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-languages"></use></svg></div>
             <div class="trait-txt">
               <strong data-it="Guida Parlante Italiano" data-en="Italian-Speaking Guide">Guida Parlante Italiano</strong>
               <span data-it="Comunicazione diretta e senza barriere" data-en="Direct communication without barriers">Comunicazione diretta e senza barriere</span>
             </div>
           </div>
           <div class="trait">
-            <div class="trait-ico">&#128274;</div>
+            <div class="trait-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield-check"></use></svg></div>
             <div class="trait-txt">
               <strong data-it="Autorizzato" data-en="Licensed & Authorized">Autorizzato</strong>
               <span data-it="Guida turistica autorizzata e certificata" data-en="Licensed and certified tour guide">Guida turistica autorizzata e certificata</span>
@@ -474,37 +474,37 @@
 
     <div class="reviews-grid">
       <div class="review-card" data-aos="fade-up" data-aos-delay="0">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-stars" role="img" aria-label="5 out of 5 stars"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg></div>
         <p class="review-text" data-it="Robert e&#x27; una garanzia, ci ha fatto conoscere il vero Kenya. Persona gentilissima, molto disponibile e affidabile. La sua risata e&#x27; contagiosa e il divertimento e&#x27; assicurato. Prezzi molto competitivi." data-en="Robert is someone you can count on. He showed us the real Kenya. He is kind, helpful and reliable; his laughter is contagious and fun is guaranteed. Very competitive prices." data-fr="Robert est une valeur sûre : il nous a fait découvrir le vrai Kenya. Il est très gentil, serviable et fiable ; son rire est contagieux et la bonne humeur est garantie. Des prix très compétitifs." data-de="Auf Robert ist Verlass. Er hat uns das echte Kenia gezeigt. Er ist sehr freundlich, hilfsbereit und zuverlässig; sein Lachen ist ansteckend und Spaß ist garantiert. Sehr faire Preise.">"Robert e' una garanzia, ci ha fatto conoscere il vero Kenya. Persona gentilissima, molto disponibile e affidabile. La sua risata e' contagiosa e il divertimento e' assicurato. Prezzi molto competitivi."</p>
         <div class="review-author">Ivana Vincenzi</div>
       </div>
 
       <div class="review-card" data-aos="fade-up" data-aos-delay="80">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-stars" role="img" aria-label="5 out of 5 stars"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg></div>
         <p class="review-text" data-it="Robert esprime tutta la sua passione nel suo lavoro. Ci ha fatto vivere l&#x27;Africa a 360 gradi - Marafa, Safari Blu, Isola di Robinson, Rovine di Gede. Vacanza indimenticabile!" data-en="Robert puts all his passion into his work. He let us experience Africa in every way — Marafa, the Blue Safari, Robinson Island and the Gedi Ruins. An unforgettable holiday!" data-fr="Robert met toute sa passion dans son travail. Il nous a fait découvrir l’Afrique sous toutes ses facettes : Marafa, le safari bleu, l’île Robinson et les ruines de Gedi. Des vacances inoubliables !" data-de="Robert steckt seine ganze Leidenschaft in seine Arbeit. Er hat uns Afrika in all seinen Facetten erleben lassen – Marafa, die Blaue Safari, Robinson Island und die Gedi-Ruinen. Ein unvergesslicher Urlaub!">"Robert esprime tutta la sua passione nel suo lavoro. Ci ha fatto vivere l'Africa a 360 gradi - Marafa, Safari Blu, Isola di Robinson, Rovine di Gede. Vacanza indimenticabile!"</p>
         <div class="review-author">Simona Capocasa</div>
       </div>
 
       <div class="review-card" data-aos="fade-up" data-aos-delay="160">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-stars" role="img" aria-label="5 out of 5 stars"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg></div>
         <p class="review-text" data-it="Vado in Kenya da alcuni anni e organizzo sempre i miei safari con Robert. E&#x27; una buona guida, esperto e con buoni prezzi. Vi consiglio di contattarlo per una buona vacanza." data-en="I have been visiting Kenya for several years and always arrange my safaris with Robert. He is a good, experienced guide with fair prices. I recommend contacting him for a wonderful holiday." data-fr="Je viens au Kenya depuis plusieurs années et j’organise toujours mes safaris avec Robert. C’est un bon guide, expérimenté et proposant de bons prix. Je vous conseille de le contacter pour passer de belles vacances." data-de="Ich reise seit einigen Jahren nach Kenia und organisiere meine Safaris immer mit Robert. Er ist ein guter, erfahrener Guide mit fairen Preisen. Ich empfehle Ihnen, ihn für einen schönen Urlaub zu kontaktieren.">"Vado in Kenya da alcuni anni e organizzo sempre i miei safari con Robert. E' una buona guida, esperto e con buoni prezzi. Vi consiglio di contattarlo per una buona vacanza."</p>
         <div class="review-author">Anna</div>
       </div>
 
       <div class="review-card" data-aos="fade-up" data-aos-delay="0">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-stars" role="img" aria-label="5 out of 5 stars"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg></div>
         <p class="review-text" data-it="Conosco Robert da 20 anni. Mi ha portato a visitare il Kenya con i suoi occhi - paesaggi favolosi, safari, tutto ad ottimi prezzi e in totale sicurezza. E&#x27; il mio kaka nero!" data-en="I have known Robert for 20 years. He showed me Kenya through his eyes — wonderful landscapes and safaris, all at great prices and with complete peace of mind. He is my kaka nero!" data-fr="Je connais Robert depuis 20 ans. Il m’a fait découvrir le Kenya à travers ses yeux : des paysages magnifiques, des safaris, le tout à très bon prix et en toute sécurité. C’est mon kaka nero !" data-de="Ich kenne Robert seit 20 Jahren. Er hat mir Kenia mit seinen Augen gezeigt – wunderschöne Landschaften und Safaris, zu sehr guten Preisen und in völliger Sicherheit. Er ist mein kaka nero!">"Conosco Robert da 20 anni. Mi ha portato a visitare il Kenya con i suoi occhi - paesaggi favolosi, safari, tutto ad ottimi prezzi e in totale sicurezza. E' il mio kaka nero!"</p>
         <div class="review-author">Cristina</div>
       </div>
 
       <div class="review-card" data-aos="fade-up" data-aos-delay="80">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-stars" role="img" aria-label="5 out of 5 stars"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg></div>
         <p class="review-text" data-it="Organizzato tutto dall&#x27;Italia. Safari di due giorni e Marafa. Tutto organizzato nei dettagli. Simpatia e onesta&#x27; assolute. Robert super simpatico e professionale. Continua cosi&#x27;!" data-en="Everything was arranged from Italy: a two-day safari and Marafa. Every detail was taken care of. Robert is genuinely friendly and honest, as well as very professional. Keep it up!" data-fr="Tout a été organisé depuis l’Italie : un safari de deux jours et Marafa. Tout était parfaitement préparé dans les moindres détails. Robert est vraiment sympathique, honnête et très professionnel. Continue comme ça !" data-de="Alles wurde von Italien aus organisiert: eine zweitägige Safari und Marafa. Alles war bis ins Detail geplant. Robert ist ausgesprochen freundlich, ehrlich und professionell. Weiter so!">"Organizzato tutto dall'Italia. Safari di due giorni e Marafa. Tutto organizzato nei dettagli. Simpatia e onesta' assolute. Robert super simpatico e professionale. Continua cosi'!"</p>
         <div class="review-author">Manuela</div>
       </div>
 
       <div class="review-card" data-aos="fade-up" data-aos-delay="160">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-stars" role="img" aria-label="5 out of 5 stars"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"></use></svg></div>
         <p class="review-text" data-it="Per me era la prima volta in questa meravigliosa terra. Essere da sola e avere Robert al mio fianco e&#x27; stato fondamentale! Tanti bei momenti, risate infinite e ricordi indelebili nel mio cuore." data-en="It was my first time in this wonderful country. Travelling alone, having Robert by my side made all the difference. So many beautiful moments, endless laughter and memories I will always treasure." data-fr="C’était mon premier voyage dans ce merveilleux pays. Voyager seule et avoir Robert à mes côtés a fait toute la différence ! De très beaux moments, des fous rires et des souvenirs impérissables." data-de="Es war meine erste Reise in dieses wunderschöne Land. Allein zu reisen und Robert an meiner Seite zu haben, war entscheidend! So viele schöne Momente, endloses Lachen und unvergessliche Erinnerungen.">"Per me era la prima volta in questa meravigliosa terra. Essere da sola e avere Robert al mio fianco e' stato fondamentale! Tanti bei momenti, risate infinite e ricordi indelebili nel mio cuore."</p>
         <div class="review-author">Elena</div>
       </div>
@@ -522,22 +522,22 @@
 
     <div class="services-grid">
       <div class="service-box" data-aos="fade-up" data-aos-delay="0">
-        <span class="service-ico">&#9992;</span>
+        <span class="service-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plane"></use></svg></span>
         <div class="service-nm" data-it="Trasferimento Aeroporto" data-en="Airport Transfer">Trasferimento Aeroporto</div>
         <p class="service-desc" data-it="Prenotazione e trasferimento aereo rapido e puntuale ogni volta che ne hai bisogno." data-en="Booking and fast, punctual airport transfer whenever you need it.">Prenotazione e trasferimento aereo rapido e puntuale ogni volta che ne hai bisogno.</p>
       </div>
       <div class="service-box" data-aos="fade-up" data-aos-delay="80">
-        <span class="service-ico">&#127968;</span>
+        <span class="service-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bed"></use></svg></span>
         <div class="service-nm" data-it="Prenotazione Hotel" data-en="Hotel Booking">Prenotazione Hotel</div>
         <p class="service-desc" data-it="Ti consigliamo e aiutiamo a prenotare gli hotel piu' belli in cui soggiornare durante il viaggio." data-en="We advise and help you book the most beautiful hotels for your stay.">Ti consigliamo e aiutiamo a prenotare gli hotel piu' belli in cui soggiornare durante il viaggio.</p>
       </div>
       <div class="service-box" data-aos="fade-up" data-aos-delay="160">
-        <span class="service-ico">&#127958;</span>
+        <span class="service-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"></use></svg></span>
         <div class="service-nm" data-it="Case e Ville Private" data-en="Villas & Private Homes">Case e Ville Private</div>
         <p class="service-desc" data-it="Prenotiamo anche ville e case private per chi preferisce un soggiorno piu' esclusivo e riservato." data-en="We also book villas and private homes for those who prefer a more exclusive stay.">Prenotiamo anche ville e case private per chi preferisce un soggiorno piu' esclusivo e riservato.</p>
       </div>
       <div class="service-box" data-aos="fade-up" data-aos-delay="240">
-        <span class="service-ico">&#127907;</span>
+        <span class="service-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-fish"></use></svg></span>
         <div class="service-nm" data-it="Pesca Sportiva" data-en="Sport Fishing">Pesca Sportiva</div>
         <p class="service-desc" data-it="Escursioni di pesca per mezza o intera giornata nelle migliori zone di pesca dell'Oceano Indiano." data-en="Half or full day fishing trips in the best spots of the Indian Ocean.">Escursioni di pesca per mezza o intera giornata nelle migliori zone di pesca dell'Oceano Indiano.</p>
       </div>
@@ -554,7 +554,7 @@
     <p data-it="Scrivici su WhatsApp per ricevere un preventivo gratuito e personalizzato. Organizziamo tutto per te, dall'aeroporto al ritorno." data-en="Message us on WhatsApp for a free, personalized quote. We organize everything for you, from airport to return.">Scrivici su WhatsApp per ricevere un preventivo gratuito e personalizzato. Organizziamo tutto per te, dall'aeroporto al ritorno.</p>
     <div class="cta-actions">
       <a href="https://wa.me/254714434430?text=Salve,%20vorrei%20informazioni%20su%20un%20safari%20in%20Kenya." class="btn btn-wa" target="_blank" rel="noopener">
-        <i class="fab fa-whatsapp"></i>
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
         <span data-it="Scrivici su WhatsApp" data-en="Write us on WhatsApp">Scrivici su WhatsApp</span>
       </a>
       <a href="mailto:furahasafariskenya@gmail.com" class="btn btn-outline" data-it="Invia una Email" data-en="Send an Email">Invia una Email</a>
@@ -574,21 +574,21 @@
 
         <div class="booking-form-contacts">
           <div class="bfc-item">
-            <div class="bfc-icon"><i class="fab fa-whatsapp"></i></div>
+            <div class="bfc-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg></div>
             <div>
               <div class="bfc-label" data-it="WhatsApp diretto" data-en="Direct WhatsApp">WhatsApp diretto</div>
               <a href="https://wa.me/254714434430" class="bfc-value" target="_blank" rel="noopener">+254 714 434 430</a>
             </div>
           </div>
           <div class="bfc-item">
-            <div class="bfc-icon"><i class="fas fa-envelope"></i></div>
+            <div class="bfc-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"></use></svg></div>
             <div>
               <div class="bfc-label" data-it="Email" data-en="Email">Email</div>
               <a href="mailto:furahasafariskenya@gmail.com" class="bfc-value">furahasafariskenya@gmail.com</a>
             </div>
           </div>
           <div class="bfc-item">
-            <div class="bfc-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="bfc-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-map-pin"></use></svg></div>
             <div>
               <div class="bfc-label" data-it="Dove siamo" data-en="Where we are">Dove siamo</div>
               <span class="bfc-value">Watamu, Kilifi County, Kenya</span>
@@ -671,11 +671,11 @@
 
         <?php if ($form_sent): ?>
           <div class="form-success">
-            <div class="form-success-icon">&#10003;</div>
+            <div class="form-success-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"></use></svg></div>
             <h3 data-it="Messaggio inviato!" data-en="Message sent!">Messaggio inviato!</h3>
             <p data-form-message><?php echo $form_message; ?></p>
             <a href="https://wa.me/254714434430" class="btn btn-wa" target="_blank" rel="noopener" style="margin-top:1rem;">
-              <i class="fab fa-whatsapp"></i>
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
               <span data-it="Scrivici anche su WhatsApp" data-en="Also write us on WhatsApp">Scrivici anche su WhatsApp</span>
             </a>
           </div>
@@ -785,7 +785,7 @@
             </div>
 
             <button type="submit" class="btn btn-primary form-submit">
-              <i class="fas fa-paper-plane"></i>
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-send"></use></svg>
               <span data-it="Invia Richiesta" data-en="Send Request">Invia Richiesta</span>
             </button>
 
@@ -806,9 +806,9 @@
         <img loading="lazy" decoding="async" class="footer-logo" src="images/logo.png" alt="Furaha Adventures Kenya">
         <p class="footer-about-text" data-it="Safari ed escursioni autentiche in Kenya con Robert, guida locale di Watamu da oltre 10 anni." data-en="Authentic safaris and excursions in Kenya with Robert, a local Watamu guide for over 10 years.">Safari ed escursioni autentiche in Kenya con Robert, guida locale di Watamu da oltre 10 anni.</p>
         <div class="footer-socials">
-          <a href="https://www.facebook.com/profile.php?id=61552163876611" class="footer-soc" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://instagram.com/furah_aadventures" class="footer-soc" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="https://wa.me/254714434430" class="footer-soc" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61552163876611" class="footer-soc" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-facebook"></use></svg></a>
+          <a href="https://instagram.com/furah_aadventures" class="footer-soc" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-instagram"></use></svg></a>
+          <a href="https://wa.me/254714434430" class="footer-soc" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg></a>
         </div>
       </div>
 
@@ -837,15 +837,15 @@
       <div>
         <div class="footer-col-title" data-it="Contatti" data-en="Contact">Contatti</div>
         <div class="footer-contact-row">
-          <span class="fci"><i class="fas fa-map-marker-alt"></i></span>
+          <span class="fci"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-map-pin"></use></svg></span>
           <div class="fct">Watamu, Kilifi County<br>Kenya</div>
         </div>
         <div class="footer-contact-row">
-          <span class="fci"><i class="fab fa-whatsapp"></i></span>
+          <span class="fci"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg></span>
           <div class="fct"><a href="https://wa.me/254714434430" target="_blank" rel="noopener">+254 714 434 430</a></div>
         </div>
         <div class="footer-contact-row">
-          <span class="fci"><i class="fas fa-envelope"></i></span>
+          <span class="fci"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"></use></svg></span>
           <div class="fct"><a href="mailto:furahasafariskenya@gmail.com">furahasafariskenya@gmail.com</a></div>
         </div>
       </div>
@@ -862,9 +862,7 @@
 
 <!-- WA FLOAT -->
 <a href="https://wa.me/254714434430?text=Salve,%20sto%20informando%20sui%20servizi%20Safari%20ed%20Escursioni%20che%20offri." class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
-  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-    <path d="M16 0C7.164 0 0 7.164 0 16c0 2.82.737 5.47 2.027 7.773L0 32l8.418-2.004A15.93 15.93 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm8.227 22.773c-.344.965-2.004 1.844-2.762 1.965-.715.113-1.617.16-2.605-.164-.601-.195-1.375-.453-2.364-.887-4.164-1.8-6.883-6.004-7.094-6.285-.211-.281-1.723-2.289-1.723-4.367S8.86 10.5 9.375 9.984c.453-.453.965-.566 1.289-.566.32 0 .641.004.922.016.296.012.695-.113.984.75.3.879 1.02 3.035 1.11 3.258.09.219.148.477.016.765-.137.289-.203.469-.406.719-.203.25-.43.558-.609.75-.203.203-.414.422-.176.828.238.406 1.055 1.742 2.266 2.82 1.555 1.386 2.867 1.816 3.27 2.02.406.203.644.172.882-.102.239-.27 1.02-1.188 1.293-1.594.269-.406.539-.34.91-.203.375.133 2.386 1.126 2.793 1.332.406.203.676.301.777.47.098.167.098.965-.246 1.926z"/>
-  </svg>
+  <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
 </a>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

@@ -13,10 +13,10 @@ $esci = array(
   'intro_it'    => 'Il Safari Blu e\' una delle escursioni piu\' amate dai turisti che visitano Watamu e Malindi. A bordo di una barca a fondo di vetro, scivolate sull\'Oceano Indiano alla scoperta di coralli, pesci coloratissimi e, con un po\' di fortuna, delfini e tartarughe marine.',
   'intro_en'    => 'The Blue Safari is one of the most loved excursions for tourists visiting Watamu and Malindi. On board a glass-bottom boat, you glide across the Indian Ocean discovering corals, colourful fish and, with a little luck, dolphins and sea turtles.',
   'highlights'  => array(
-    array('ico' => '&#128011;', 'lbl_it' => 'Delfini', 'lbl_en' => 'Dolphins', 'val_it' => 'Avvistamento spesso garantito', 'val_en' => 'Often spotted'),
-    array('ico' => '&#127800;', 'lbl_it' => 'Snorkeling', 'lbl_en' => 'Snorkeling', 'val_it' => 'Barriera corallina', 'val_en' => 'Coral reef'),
-    array('ico' => '&#9749;', 'lbl_it' => 'Pranzo', 'lbl_en' => 'Lunch', 'val_it' => 'Incluso a bordo', 'val_en' => 'Included on board'),
-    array('ico' => '&#9925;', 'lbl_it' => 'Durata', 'lbl_en' => 'Duration', 'val_it' => 'Giornata in terra', 'val_en' => 'Full day on land'),
+    array('ico' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-fish"></use></svg>', 'lbl_it' => 'Delfini', 'lbl_en' => 'Dolphins', 'val_it' => 'Avvistamento spesso garantito', 'val_en' => 'Often spotted'),
+    array('ico' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-waves"></use></svg>', 'lbl_it' => 'Snorkeling', 'lbl_en' => 'Snorkeling', 'val_it' => 'Barriera corallina', 'val_en' => 'Coral reef'),
+    array('ico' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-utensils"></use></svg>', 'lbl_it' => 'Pranzo', 'lbl_en' => 'Lunch', 'val_it' => 'Incluso a bordo', 'val_en' => 'Included on board'),
+    array('ico' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sun"></use></svg>', 'lbl_it' => 'Durata', 'lbl_en' => 'Duration', 'val_it' => 'Giornata in terra', 'val_en' => 'Full day on land'),
   ),
   'desc_it'     => 'La mattina, Robert ti verra\' a prendere e insieme raggiungerete il porto di imbarco. La barca a fondo di vetro salpera\' verso le acque cristalline dell\'Oceano Indiano. Durante l\'escursione avrete la possibilita\' di fare snorkeling nella barriera corallina, osservare i delfini nel loro habitat naturale e godervi il sole e la brezza marina. Il pranzo e\' servito direttamente a bordo con pesce fresco, riso e frutta di stagione.',
   'desc_en'     => 'In the morning, Robert will pick you up and together you will reach the boarding port. The barca a fondo di vetro will sail towards the crystal-clear waters of the Indian Ocean. During the excursion you will have the chance to snorkel in the coral reef, observe dolphins in their natural habitat and enjoy the sun and sea breeze. Lunch is served directly on board with fresh fish, rice and seasonal fruit.',
@@ -41,9 +41,9 @@ $esci = array(
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+<?php require __DIR__ . '/./../includes/icons.php'; ?>
 
 <!-- NAV -->
 <nav class="site-nav" id="site-nav">
@@ -57,7 +57,7 @@ $esci = array(
       <li>
         <a href="../index.php#safari" class="nav-link">
           <span data-it="Safari" data-en="Safari">Safari</span>
-          <span class="chev">&#9660;</span>
+          <span class="chev"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
         </a>
         <div class="dropdown">
           <a href="../safari/1-gg-tsavo-est.php">1 GG Tsavo Est</a>
@@ -73,7 +73,7 @@ $esci = array(
       <li>
         <a href="../index.php#escursioni" class="nav-link">
           <span data-it="Escursioni" data-en="Excursions">Escursioni</span>
-          <span class="chev">&#9660;</span>
+          <span class="chev"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
         </a>
         <div class="dropdown">
           <a href="safari-blu.php">Safari Blu</a>
@@ -89,7 +89,7 @@ $esci = array(
       </li>
       <li><a href="../index.php#recensioni" class="nav-link" data-it="Recensioni" data-en="Reviews">Recensioni</a></li>
       <li><label class="language-picker" aria-label="Select website language">
-          <span class="language-picker-icon" aria-hidden="true">◎</span>
+          <span class="language-picker-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-globe"></use></svg></span>
           <select class="language-select" aria-label="Select website language">
             <option value="en">English</option>
             <option value="it">Italiano</option>
@@ -99,7 +99,7 @@ $esci = array(
         </label></li>
       <li>
         <a href="https://wa.me/254714434430?text=Salve,%20sono%20interessato%20all%27escursione%20<?php echo urlencode($esci['title_it']); ?>." class="nav-cta" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i> WhatsApp
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg> WhatsApp
         </a>
       </li>
     </ul>
@@ -110,15 +110,15 @@ $esci = array(
 </nav>
 
 <div class="mobile-nav" id="mobile-nav">
-  <button class="mobile-close" id="mobile-close" aria-label="Close" data-aria-en="Close" data-aria-it="Chiudi" data-aria-fr="Fermer" data-aria-de="Schließen">&times;</button>
+  <button class="mobile-close" id="mobile-close" aria-label="Close" data-aria-en="Close" data-aria-it="Chiudi" data-aria-fr="Fermer" data-aria-de="Schließen"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"></use></svg></button>
   <a href="../index.php" class="mobile-nav-title">Home</a>
   <a href="../index.php#safari" class="mobile-nav-title">Safari</a>
   <a href="../index.php#escursioni" class="mobile-nav-title">Escursioni</a>
   <a href="https://wa.me/254714434430" class="btn btn-wa" target="_blank" rel="noopener" style="margin-top:0.5rem;">
-    <i class="fab fa-whatsapp"></i> WhatsApp
+    <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg> WhatsApp
   </a>
   <label class="language-picker language-picker-mobile" aria-label="Select website language">
-    <span class="language-picker-icon" aria-hidden="true">◎</span>
+    <span class="language-picker-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-globe"></use></svg></span>
     <select class="language-select" aria-label="Select website language">
       <option value="en">English</option>
       <option value="it">Italiano</option>
@@ -171,7 +171,7 @@ $esci = array(
 
       <div style="margin-top: 2.5rem;">
         <a href="https://wa.me/254714434430?text=Salve,%20sono%20interessato%20all%27escursione%20<?php echo urlencode($esci['title_it']); ?>." class="btn btn-wa" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i>
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
           <span data-it="Prenota questa Escursione" data-en="Book this Excursion">Prenota questa Escursione</span>
         </a>
       </div>
@@ -187,24 +187,24 @@ $esci = array(
           <div class="footer-col-title" style="margin-bottom:0.75rem;" data-it="Cosa include:" data-en="What's included:">Cosa include:</div>
           <?php foreach ($esci['includes'] as $inc): ?>
           <div class="booking-item">
-            <span class="chk"><i class="fas fa-check-circle"></i></span>
+            <span class="chk"><svg class="icon icon--check" aria-hidden="true" focusable="false"><use href="#i-check-circle"></use></svg></span>
             <span data-it="<?php echo $inc['it']; ?>" data-en="<?php echo $inc['en']; ?>"><?php echo $inc['it']; ?></span>
           </div>
           <?php endforeach; ?>
         </div>
 
         <a href="https://wa.me/254714434430?text=Salve,%20sono%20interessato%20all%27escursione%20<?php echo urlencode($esci['title_it']); ?>." class="btn btn-wa" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i>
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
           <span data-it="Chiedi Preventivo" data-en="Request Quote">Chiedi Preventivo</span>
         </a>
 
         <div style="margin-top:1.25rem; padding-top:1.25rem; border-top: 1px solid var(--bark);">
           <div class="footer-contact-row">
-            <span class="fci"><i class="fas fa-phone"></i></span>
+            <span class="fci"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"></use></svg></span>
             <div class="fct"><a href="tel:+254714434430">+254 714 434 430</a></div>
           </div>
           <div class="footer-contact-row">
-            <span class="fci"><i class="fas fa-envelope"></i></span>
+            <span class="fci"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"></use></svg></span>
             <div class="fct"><a href="mailto:furahasafariskenya@gmail.com">furahasafariskenya@gmail.com</a></div>
           </div>
         </div>

@@ -10,9 +10,9 @@
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+<?php require __DIR__ . '/./../includes/icons.php'; ?>
 
 <nav class="site-nav" id="site-nav">
   <div class="nav-inner">
@@ -24,7 +24,7 @@
       <li><a href="../index.php#chi-sono" class="nav-link" data-it="Chi Sono" data-en="About">Chi Sono</a></li>
       <li>
         <a href="../index.php#safari" class="nav-link">
-          <span data-it="Safari" data-en="Safari">Safari</span><span class="chev">&#9660;</span>
+          <span data-it="Safari" data-en="Safari">Safari</span><span class="chev"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
         </a>
         <div class="dropdown">
           <a href="../safari/1-gg-tsavo-est.php">1 GG Tsavo Est</a>
@@ -41,7 +41,7 @@
       </li>
       <li>
         <a href="../index.php#escursioni" class="nav-link">
-          <span data-it="Escursioni" data-en="Excursions">Escursioni</span><span class="chev">&#9660;</span>
+          <span data-it="Escursioni" data-en="Excursions">Escursioni</span><span class="chev"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg></span>
         </a>
         <div class="dropdown">
           <a href="safari-blu.php">Safari Blu</a>
@@ -58,7 +58,7 @@
       <li><a href="../index.php#recensioni" class="nav-link" data-it="Recensioni" data-en="Reviews">Recensioni</a></li>
       <li><a href="../index.php#prenota" class="nav-link" data-it="Prenota" data-en="Book" style="color:var(--dust);">Prenota</a></li>
       <li><label class="language-picker" aria-label="Select website language">
-          <span class="language-picker-icon" aria-hidden="true">◎</span>
+          <span class="language-picker-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-globe"></use></svg></span>
           <select class="language-select" aria-label="Select website language">
             <option value="en">English</option>
             <option value="it">Italiano</option>
@@ -68,7 +68,7 @@
         </label></li>
       <li>
         <a href="https://wa.me/254714434430" class="nav-cta" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i> WhatsApp
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg> WhatsApp
         </a>
       </li>
     </ul>
@@ -78,15 +78,15 @@
   </div>
 </nav>
 <div class="mobile-nav" id="mobile-nav">
-  <button class="mobile-close" id="mobile-close">&times;</button>
+  <button class="mobile-close" id="mobile-close"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"></use></svg></button>
   <a href="../index.php" class="mobile-nav-title">Home</a>
   <a href="../index.php#safari" class="mobile-nav-title">Safari</a>
   <a href="../index.php#escursioni" class="mobile-nav-title">Escursioni</a>
   <a href="https://wa.me/254714434430" class="btn btn-wa" target="_blank" rel="noopener" style="margin-top:0.5rem;">
-    <i class="fab fa-whatsapp"></i> WhatsApp
+    <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg> WhatsApp
   </a>
   <label class="language-picker language-picker-mobile" aria-label="Select website language">
-    <span class="language-picker-icon" aria-hidden="true">◎</span>
+    <span class="language-picker-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-globe"></use></svg></span>
     <select class="language-select" aria-label="Select website language">
       <option value="en">English</option>
       <option value="it">Italiano</option>
@@ -115,22 +115,22 @@
 
       <div class="esci-highlights" data-aos="fade-up">
         <div class="esci-hl">
-          <span class="ico">🏛</span>
+          <span class="ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-landmark"></use></svg></span>
           <strong data-it="Palazzo del Sultano" data-en="Sultan's Palace">Palazzo del Sultano</strong>
           <span data-it="XII-XVII secolo" data-en="12th-17th century">XII-XVII secolo</span>
         </div>
         <div class="esci-hl">
-          <span class="ico">🐒</span>
+          <span class="ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"></use></svg></span>
           <strong data-it="Scimmie Colobo" data-en="Colobus Monkeys">Scimmie Colobo</strong>
           <span data-it="Nella foresta tropicale" data-en="In tropical forest">Nella foresta tropicale</span>
         </div>
         <div class="esci-hl">
-          <span class="ico">🌿</span>
+          <span class="ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-leaf"></use></svg></span>
           <strong data-it="Foresta Tropicale" data-en="Tropical Forest">Foresta Tropicale</strong>
           <span data-it="Uccelli esotici" data-en="Exotic birds">Uccelli esotici</span>
         </div>
         <div class="esci-hl">
-          <span class="ico">🔍</span>
+          <span class="ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"></use></svg></span>
           <strong data-it="Archeologia" data-en="Archaeology">Archeologia</strong>
           <span data-it="Mistero ancora irrisolto" data-en="Still unsolved mystery">Mistero ancora irrisolto</span>
         </div>
@@ -148,7 +148,7 @@
 
       <div style="margin-top:2.5rem;">
         <a href="https://wa.me/254714434430?text=Salve,%20sono%20interessato%20all%20escursione%20Rovine%20di%20Gedi." class="btn btn-wa" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i>
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
           <span data-it="Prenota questa Escursione" data-en="Book this Excursion">Prenota questa Escursione</span>
         </a>
       </div>
@@ -160,22 +160,22 @@
         <p class="booking-sub" data-it="Contattaci su WhatsApp per un preventivo gratuito e personalizzato." data-en="Contact us on WhatsApp for a free personalized quote.">Contattaci su WhatsApp per un preventivo gratuito e personalizzato.</p>
         <div class="booking-includes">
           <div class="footer-col-title" style="margin-bottom:0.75rem;" data-it="Cosa include:" data-en="What's included:">Cosa include:</div>
-          <div class="booking-item"><span class="chk"><i class="fas fa-check-circle"></i></span><span data-it="Trasporto andata e ritorno" data-en="Round trip transport">Trasporto andata e ritorno</span></div>
-          <div class="booking-item"><span class="chk"><i class="fas fa-check-circle"></i></span><span data-it="Ingresso alle Rovine di Gedi" data-en="Gedi Ruins entrance fee">Ingresso alle Rovine di Gedi</span></div>
-          <div class="booking-item"><span class="chk"><i class="fas fa-check-circle"></i></span><span data-it="Guida locale alle rovine" data-en="Local ruins guide">Guida locale alle rovine</span></div>
-          <div class="booking-item"><span class="chk"><i class="fas fa-check-circle"></i></span><span data-it="Acqua durante il tour" data-en="Water during the tour">Acqua durante il tour</span></div>
+          <div class="booking-item"><span class="chk"><svg class="icon icon--check" aria-hidden="true" focusable="false"><use href="#i-check-circle"></use></svg></span><span data-it="Trasporto andata e ritorno" data-en="Round trip transport">Trasporto andata e ritorno</span></div>
+          <div class="booking-item"><span class="chk"><svg class="icon icon--check" aria-hidden="true" focusable="false"><use href="#i-check-circle"></use></svg></span><span data-it="Ingresso alle Rovine di Gedi" data-en="Gedi Ruins entrance fee">Ingresso alle Rovine di Gedi</span></div>
+          <div class="booking-item"><span class="chk"><svg class="icon icon--check" aria-hidden="true" focusable="false"><use href="#i-check-circle"></use></svg></span><span data-it="Guida locale alle rovine" data-en="Local ruins guide">Guida locale alle rovine</span></div>
+          <div class="booking-item"><span class="chk"><svg class="icon icon--check" aria-hidden="true" focusable="false"><use href="#i-check-circle"></use></svg></span><span data-it="Acqua durante il tour" data-en="Water during the tour">Acqua durante il tour</span></div>
         </div>
         <a href="https://wa.me/254714434430?text=Salve,%20sono%20interessato%20all%20escursione%20Rovine%20di%20Gedi." class="btn btn-wa" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i>
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
           <span data-it="Chiedi Preventivo" data-en="Request Quote">Chiedi Preventivo</span>
         </a>
         <div style="margin-top:1.25rem;padding-top:1.25rem;border-top:1px solid var(--bark);">
           <div class="footer-contact-row">
-            <span class="fci"><i class="fas fa-phone"></i></span>
+            <span class="fci"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"></use></svg></span>
             <div class="fct"><a href="tel:+254714434430">+254 714 434 430</a></div>
           </div>
           <div class="footer-contact-row">
-            <span class="fci"><i class="fas fa-envelope"></i></span>
+            <span class="fci"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"></use></svg></span>
             <div class="fct"><a href="mailto:furahasafariskenya@gmail.com">furahasafariskenya@gmail.com</a></div>
           </div>
         </div>
@@ -200,9 +200,7 @@
   </div>
 </footer>
 <a href="https://wa.me/254714434430" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
-  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-    <path d="M16 0C7.164 0 0 7.164 0 16c0 2.82.737 5.47 2.027 7.773L0 32l8.418-2.004A15.93 15.93 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm8.227 22.773c-.344.965-2.004 1.844-2.762 1.965-.715.113-1.617.16-2.605-.164-.601-.195-1.375-.453-2.364-.887-4.164-1.8-6.883-6.004-7.094-6.285-.211-.281-1.723-2.289-1.723-4.367S8.86 10.5 9.375 9.984c.453-.453.965-.566 1.289-.566.32 0 .641.004.922.016.296.012.695-.113.984.75.3.879 1.02 3.035 1.11 3.258.09.219.148.477.016.765-.137.289-.203.469-.406.719-.203.25-.43.558-.609.75-.203.203-.414.422-.176.828.238.406 1.055 1.742 2.266 2.82 1.555 1.386 2.867 1.816 3.27 2.02.406.203.644.172.882-.102.239-.27 1.02-1.188 1.293-1.594.269-.406.539-.34.91-.203.375.133 2.386 1.126 2.793 1.332.406.203.676.301.777.47.098.167.098.965-.246 1.926z"/>
-  </svg>
+  <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
 </a>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

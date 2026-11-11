@@ -19,10 +19,10 @@ $data = [
     'body_p3' => 'Robert conosce i percorsi meno battuti del canyon e sa dove posizionarsi per i migliori tramonti. La visita include una passeggiata tra le formazioni rocciose con spiegazioni sulla geologia e le leggende locali.',
     'highlights_title' => 'Punti Salienti',
     'highlights' => [
-      ['icon' => '🌅', 'title' => 'Tramonto', 'desc' => 'Il tramonto al canyon e uno dei piu belli del Kenya.'],
-      ['icon' => '🪨', 'title' => 'Geologia', 'desc' => 'Formazioni uniche di argilla rossa e roccia bianca.'],
-      ['icon' => '📸', 'title' => 'Fotografia', 'desc' => 'Scenari perfetti in ogni angolo del canyon.'],
-      ['icon' => '🦅', 'title' => 'Wildlife', 'desc' => 'Uccelli rari e fauna tipica della foresta secca.'],
+      ['icon' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sun"></use></svg>', 'title' => 'Tramonto', 'desc' => 'Il tramonto al canyon e uno dei piu belli del Kenya.'],
+      ['icon' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mountain"></use></svg>', 'title' => 'Geologia', 'desc' => 'Formazioni uniche di argilla rossa e roccia bianca.'],
+      ['icon' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-camera"></use></svg>', 'title' => 'Fotografia', 'desc' => 'Scenari perfetti in ogni angolo del canyon.'],
+      ['icon' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"></use></svg>', 'title' => 'Wildlife', 'desc' => 'Uccelli rari e fauna tipica della foresta secca.'],
     ],
     'includes_title' => 'Incluso',
     'includes' => ['Trasporto in jeep 4x4', 'Guida professionale Robert', 'Acqua', 'Pranzo in ristorante locale (opzionale)'],
@@ -47,10 +47,10 @@ $data = [
     'body_p3' => 'Robert knows the lesser-trodden paths of the canyon and knows exactly where to stand for the best sunsets. The visit includes a walk among the rock formations with explanations of the geology and local legends.',
     'highlights_title' => 'Highlights',
     'highlights' => [
-      ['icon' => '🌅', 'title' => 'Sunset', 'desc' => 'The sunset at the canyon is one of the most beautiful in Kenya.'],
-      ['icon' => '🪨', 'title' => 'Geology', 'desc' => 'Unique formations of red clay and white rock.'],
-      ['icon' => '📸', 'title' => 'Photography', 'desc' => 'Perfect scenery around every corner of the canyon.'],
-      ['icon' => '🦅', 'title' => 'Wildlife', 'desc' => 'Rare birds and wildlife typical of dry forest.'],
+      ['icon' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sun"></use></svg>', 'title' => 'Sunset', 'desc' => 'The sunset at the canyon is one of the most beautiful in Kenya.'],
+      ['icon' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mountain"></use></svg>', 'title' => 'Geology', 'desc' => 'Unique formations of red clay and white rock.'],
+      ['icon' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-camera"></use></svg>', 'title' => 'Photography', 'desc' => 'Perfect scenery around every corner of the canyon.'],
+      ['icon' => '<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"></use></svg>', 'title' => 'Wildlife', 'desc' => 'Rare birds and wildlife typical of dry forest.'],
     ],
     'includes_title' => "What's Included",
     'includes' => ['4x4 jeep transport', 'Professional guide Robert', 'Water', 'Lunch at a local restaurant (optional)'],
@@ -71,10 +71,10 @@ $data = [
     'body_p3' => 'Robert connaît les sentiers moins fréquentés du canyon et sait où se placer pour admirer les plus beaux couchers de soleil. La visite comprend une promenade parmi les formations rocheuses et des explications sur la géologie et les légendes locales.',
     'highlights_title' => 'Points forts',
     'highlights' => [
-      ['icon'=>'🌅','title'=>'Coucher du soleil','desc'=>'Le coucher de soleil au canyon compte parmi les plus beaux du Kenya.'],
-      ['icon'=>'🪨','title'=>'Géologie','desc'=>'Formations uniques d’argile rouge et de roche blanche.'],
-      ['icon'=>'📸','title'=>'Photographie','desc'=>'Des paysages parfaits à chaque détour du canyon.'],
-      ['icon'=>'🦅','title'=>'Faune','desc'=>'Oiseaux rares et animaux typiques de la forêt sèche.'],
+      ['icon'=>'<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sun"></use></svg>','title'=>'Coucher du soleil','desc'=>'Le coucher de soleil au canyon compte parmi les plus beaux du Kenya.'],
+      ['icon'=>'<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mountain"></use></svg>','title'=>'Géologie','desc'=>'Formations uniques d’argile rouge et de roche blanche.'],
+      ['icon'=>'<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-camera"></use></svg>','title'=>'Photographie','desc'=>'Des paysages parfaits à chaque détour du canyon.'],
+      ['icon'=>'<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"></use></svg>','title'=>'Faune','desc'=>'Oiseaux rares et animaux typiques de la forêt sèche.'],
     ],
     'includes_title' => 'Inclus', 'includes' => ['Transport en jeep 4x4','Guide professionnel Robert','Eau','Déjeuner dans un restaurant local (en option)'],
     'book_text' => 'Réserver cette excursion', 'book_sub' => 'Écrivez à Robert sur WhatsApp pour connaître les tarifs et les disponibilités.',
@@ -92,10 +92,10 @@ $data = [
     'body_p3' => 'Robert kennt die weniger begangenen Wege des Canyons und weiß, wo man die schönsten Sonnenuntergänge erlebt. Der Besuch umfasst einen Spaziergang zwischen den Felsformationen mit Erklärungen zur Geologie und zu lokalen Legenden.',
     'highlights_title' => 'Höhepunkte',
     'highlights' => [
-      ['icon'=>'🌅','title'=>'Sonnenuntergang','desc'=>'Der Sonnenuntergang am Canyon gehört zu den schönsten in Kenia.'],
-      ['icon'=>'🪨','title'=>'Geologie','desc'=>'Einzigartige Formationen aus rotem Lehm und weißem Gestein.'],
-      ['icon'=>'📸','title'=>'Fotografie','desc'=>'An jeder Ecke des Canyons warten beeindruckende Motive.'],
-      ['icon'=>'🦅','title'=>'Tierwelt','desc'=>'Seltene Vögel und typische Tiere des Trockenwaldes.'],
+      ['icon'=>'<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sun"></use></svg>','title'=>'Sonnenuntergang','desc'=>'Der Sonnenuntergang am Canyon gehört zu den schönsten in Kenia.'],
+      ['icon'=>'<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mountain"></use></svg>','title'=>'Geologie','desc'=>'Einzigartige Formationen aus rotem Lehm und weißem Gestein.'],
+      ['icon'=>'<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-camera"></use></svg>','title'=>'Fotografie','desc'=>'An jeder Ecke des Canyons warten beeindruckende Motive.'],
+      ['icon'=>'<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"></use></svg>','title'=>'Tierwelt','desc'=>'Seltene Vögel und typische Tiere des Trockenwaldes.'],
     ],
     'includes_title' => 'Inklusive', 'includes' => ['4x4-Jeep-Transport','Professioneller Guide Robert','Wasser','Mittagessen in einem lokalen Restaurant (optional)'],
     'book_text' => 'Diesen Ausflug buchen', 'book_sub' => 'Schreiben Sie Robert per WhatsApp für Preise und Verfügbarkeit.',
@@ -119,6 +119,7 @@ $d = $data[$lang];
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<?php require __DIR__ . '/./../includes/icons.php'; ?>
 
 <!-- NAV -->
 <nav class="nav scrolled">
@@ -132,7 +133,7 @@ $d = $data[$lang];
     <a href="../index.php#recensioni"><?php echo ['en'=>'Reviews','it'=>'Recensioni','fr'=>'Avis','de'=>'Bewertungen'][$lang]; ?></a>
     <a href="../index.php#contatti"><?php echo ['en'=>'Contact','it'=>'Contatti','fr'=>'Contact','de'=>'Kontakt'][$lang]; ?></a>
     <label class="language-picker" aria-label="Select website language">
-      <span class="language-picker-icon" aria-hidden="true">◎</span>
+      <span class="language-picker-icon" aria-hidden="true"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-globe"></use></svg></span>
       <select class="language-select" aria-label="Select website language" onchange="window.location='marafa.php?lang='+this.value">
         <option value="en" <?php echo $lang==='en'?'selected':''; ?>>English</option>
         <option value="it" <?php echo $lang==='it'?'selected':''; ?>>Italiano</option>

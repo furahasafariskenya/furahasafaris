@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+*.old
+*.zip
+*.rar
+*.7z
+.cache/
+tmp/
+temp/
+node_modules/
+vendor/

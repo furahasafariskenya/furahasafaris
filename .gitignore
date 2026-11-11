@@ -1,0 +1,35 @@
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+.cache/
+tmp/
+temp/
+
+# Archives and backups
+*.zip
+*.rar
+*.7z
+
+# Dependencies and development folders
+node_modules/
+vendor/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Local configuration
+config.local.php

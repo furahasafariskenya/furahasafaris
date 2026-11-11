@@ -34,3 +34,6 @@ vendor/
 
 # Local configuration
 config.local.php
+
+# Review screenshots produced by the local layout audit
+artifacts/

@@ -11,6 +11,8 @@ Built on the Phase 4 four-language archive. Site files are in `p/` (same structu
 ## Local test
 `cd p && php -S localhost:8000`, then open http://localhost:8000/.
 
+Before uploading, run `./preflight.sh` from the project root. It fails on unresolved merge-conflict markers, a page that does not load the icon sprite, or a PHP syntax error (requires `php` on PATH).
+
 ## What changed in Phase 5
 - **One icon system for the whole site.** `p/includes/icons.php` is a single inline SVG sprite (41 symbols, 24x24 grid, 2px stroke, `currentColor`) required just after `<body>` on all 23 pages. Every icon is now `<svg class="icon"><use href="#i-name"></use></svg>`.
 - **All emoji interface icons removed** (55 of them): About traits, Other Services, excursion highlight tiles, admin sidebar/toolbar, language-picker glyph, mobile-menu close, nav chevrons, success tick and review stars.

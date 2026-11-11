@@ -1,38 +1,23 @@
-<<<<<<< HEAD
-.DS_Store
-Thumbs.db
-desktop.ini
-=======
-
 # Operating system files
 .DS_Store
 Thumbs.db
 desktop.ini
 
 # Logs and temporary files
->>>>>>> ee233102d88ca0e9ef84de3fa4937b263e9ed7fc
 *.log
 *.tmp
 *.bak
 *.old
-<<<<<<< HEAD
-*.zip
-*.rar
-*.7z
-.cache/
-tmp/
-temp/
-node_modules/
-vendor/
-=======
-.cache/
-tmp/
-temp/
 
 # Archives and backups
 *.zip
 *.rar
 *.7z
+
+# Caches and temporary folders
+.cache/
+tmp/
+temp/
 
 # Dependencies and development folders
 node_modules/
@@ -49,4 +34,3 @@ vendor/
 
 # Local configuration
 config.local.php
->>>>>>> ee233102d88ca0e9ef84de3fa4937b263e9ed7fc
